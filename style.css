@@ -1,0 +1,495 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background:
+        radial-gradient(circle at 50% 100%, rgba(70, 85, 110, 0.5) 0%, transparent 60%),
+        radial-gradient(circle at 50% 100%, rgba(99, 102, 241, 0.4) 0%, transparent 70%),
+        radial-gradient(circle at 50% 100%, rgba(181, 184, 208, 0.3) 0%, transparent 80%),
+        #000;
+}
+
+
+header img
+{
+    width: 180px;
+    height: 30px;
+    padding-top: 15px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 40px
+}
+
+header li 
+{
+    list-style: none;
+}
+
+header a
+{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+
+.join button
+{
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.join
+{
+    padding-top: 12px;
+}
+
+
+.ls 
+{
+    background: transparent;
+    color: white;
+
+}
+
+
+
+.main h1
+{
+    font-family: 'Panchang', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+}
+
+.main h2 
+{
+    color: white;
+    font-family: 'Panchang', sans-serif;
+    font-weight: 500;
+    color: oklch(86.5% .127 207.078);
+    font-size: 40px;
+}
+
+
+.main p
+{
+    color: white;
+    max-width: 450px;
+    margin-left: 120px;
+    font-family: 'Switzer', sans-serif;
+    font-size: 20px;
+}
+
+
+.main
+{
+    text-align: center;
+    max-width: 700px;
+    margin-inline: auto;
+    margin-top: 100px;
+}
+
+
+.slide ul
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    margin-top: 12%;
+}
+
+
+.slide li
+{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.bt 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.bt button
+{
+    width: 160px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.l1 
+{
+    background-color: white;
+    border: 1px solid #090E1E;
+    color: black;
+}
+
+.l2
+{
+    background-color: transparent;
+    border: 1px solid #444;
+    color: white;
+    
+}
+
+
+hr
+{
+    width: 600px;
+    margin-top: 30px;
+    border-top: 1px solid #4a5658;
+}
+
+.pr
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.pr h2
+{
+    font-family: 'Panchang', sans-serif;
+
+}
+
+
+.slide iframe
+{
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.content
+{
+    background-color: white;
+    display: flex;
+}
+
+
+.content h1
+{
+    padding-left: 40px;
+    font-family: 'Panchang', sans-serif;
+}
+
+.boxex
+{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 100px;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+
+.boxex img
+{
+    width: 550px;
+}
+
+.boxex h2
+{
+    font-family: 'Panchang', sans-serif;
+}
+
+
+.boxex p
+{
+    font-family: 'Switzer', sans-serif;
+    max-width: 300px;
+}
+
+.boxex button
+{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    color: white;
+    font-size: px;
+    font-family: 'Switzer', sans-serif;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#last
+{
+    background-color: white;
+    border: 1px solid #444;
+    color: black;
+}
+
+#la
+{
+    background-color: white;
+    border: 1px solid #444;
+    color: black;
+}
+
+#l
+{
+    background-color: white;
+    border: 1px solid #444;
+    color: black;
+}
+
+
+.nexus
+{
+    background-color: #15101f;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+.nexus h2
+{
+    font-family: 'Panchang', sans-serif;
+    font-size: 30px;
+}
+
+.nexus p
+{
+    max-width: 500px;
+    font-family: 'Switzer', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+
+.nexus button
+{
+    width: 150px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid gray;
+    color: white;
+    font-size: px;
+    font-family: 'Switzer', sans-serif;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+#ne_la 
+{
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+}
+
+.images img
+{
+    width: 350px;
+    height: 350px;
+    padding-top: 80px;
+}
+
+
+.nexus1
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #090E1E;
+    padding-right: 80px;
+}
+
+.nexus1 video
+{
+    display: block;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    display: flex;
+    height: 300px;
+    object-fit: cover;
+}
+
+.nexus img
+{
+    width: 250px;
+    height: auto;
+    display: block;
+    padding-top: 50px;
+}
+
+
+.para
+{
+    background-color: white;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+
+.faq
+{
+    background-color: white;
+}
+
+.faq {
+    max-width: 1200px;
+    margin: 50px auto;
+    font-family: "General Sans", sans-serif;
+    font-weight: 700;
+}
+
+.faq details {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  padding: 20px 24px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.faq details:hover {
+  border-color: #090E1E;
+}
+
+.faq details[open] {
+  border-color: #090E1E;
+  box-shadow: 0 4px 20px rgba(35, 115, 244, 0.08);
+}
+
+.faq summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary::after {
+  content: "+";
+  font-size: 24px;
+  font-weight: 400;
+  color: #2373F4;
+  transition: transform 0.3s ease;
+}
+
+.faq details[open] summary::after {
+  content: "−";
+}
+
+.faq p {
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 16px 30px 0 0;
+}
+
+
+.para h2
+{
+    font-family: 'Panchang', sans-serif;
+    font-size: 30px;
+}
+
+
+.footer {
+    background-color: #090E1E;
+    color: #FAF4F0;
+    padding: 100px 50px 28px;
+    overflow: hidden;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1fr 2fr auto;
+    gap: 28px;
+    align-items: start;
+}
+
+.footer-lead {
+    max-width: 640px;
+    font-family: 'Switzer', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.footer-big {
+    margin: 80px 0 40px;
+    font-family: 'Panchang', sans-serif;
+    font-weight: 600;
+    font-size: 180px;
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 24px;
+    border-top: 1px solid #4a5658;
+    font-size: 14px;
+    color: #a3abac;
+}
+
+.footer-bottom nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.footer-bottom a
+{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>nexus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" rel="stylesheet">
+<style>
+  :root { --h: 100px; }            /* hadi hiya height dyal iframe (khlliha nfs l'iframe height) */
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 100%;
+    height: var(--h);
+    overflow: hidden;              /* ma kayn ta scrollbar */
+    background: #ffffff;
+  }
+
+  .marquee {
+    width: 100%;
+    height: var(--h);
+    display: flex;
+    align-items: center;           /* text f west l'height bzzaf */
+    overflow: hidden;
+    background: #ffffff;
+    color: #000000;
+  }
+  .track {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite;   /* 20s = tsriiie3 / tbti2 l'anim */
+  }
+  .track span {
+    font-family: "Syne", "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0 75px;
+  }
+  /* 2 groupes b7al b7al -> loop bla ma ybane jump */
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .track { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="marquee" aria-label="nexus">
+  <div class="track" aria-hidden="true">
+    <span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span>
+    <span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span><span>nexus</span>
+  </div>
+</div>
+
+</body>
+</html>
