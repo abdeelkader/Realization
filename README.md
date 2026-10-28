@@ -20,7 +20,6 @@ Nexus aims to simplify teamwork by bringing essential team management tools toge
 
 - HTML5
 - CSS3
-- JavaScript
 
 ## Getting Started
 
